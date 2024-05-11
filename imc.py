@@ -6,9 +6,9 @@ altura = float(input("por favor, introduzca su altura en metros: "))
 
 imc = peso / (altura ** 2) 
 
-if imc > 18.5:
+if imc < 18.5:
      resultado = "bajo peso"
-elif imc < 25:
+elif imc > 25:
      resultado = "sobre peso"
 else:
      resultado = "normal"
